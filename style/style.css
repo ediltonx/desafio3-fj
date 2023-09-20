@@ -1,8 +1,5 @@
 *{
-    background-color: rgb(99, 49, 132);    
-    border-style: dotted;
-    border-width: 1px;
-    border-color: blue;
+    background-color: rgb(99, 49, 132);      
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -21,7 +18,8 @@ h1{
 
 
 li,label,p,input{
-
+    text-align: center;
+    padding: 7px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:rgb(102, 255, 0);
 
