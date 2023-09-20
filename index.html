@@ -19,7 +19,7 @@
     <ul>
         <li>Estudar Linux</li>
         <li>Praticar na AWS</li>
-        <li>Estudar banco de Dados</li>
+        <li>Estudar Banco de Dados</li>
     </ul>
 
     <h2>Em andamento</h2>
@@ -33,10 +33,26 @@
 
     <ul>
         <li>Criar Repositorio no Github</li>
-        <li>Praticar Projetos</li>
+        <li>Participar de comunidades de Devs</li>
     </ul>
 
     <h2>Registrar nova atividade</h2>
+
+    <form action="cadastrar" method="post">
+        <fieldset>
+
+            <label for="atividade">Atividade:</label>
+            <input type="text" id="atividade" name="atividade">
+          
+          <span><p>Status</p></span>     
+          <input type="radio" id= "fazer" /> <label for="radio">Para fazer</label>
+          <input type="radio" id="andamento" /> <label for="radio">Em andamento</label>
+          <input type="radio" id="concluida" /> <label for="radio">Concluídas</label>
+          <br><br>
+          <input type="submit" value="Enviar">
+        </fieldset>
+      </form>
+      
 
 
     
